@@ -1,14 +1,13 @@
 import java.util.Scanner;
-public class QustionOne {
+public class QuestionOne{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter a word: ");
-        char userInput = sc.next().charAt(1);
-        
-        
-        for (char i=0;i<=userInput;i++) {
-            System.out.println(i);
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the word:");
+        String a=sc.nextLine();
+        String b="";
+        for(int i=a.length()-1;i>=0;i--){
+            b=b+a.charAt(i);
         }
-        }
+        System.out.println("Reverse="+b);
+    }
 }
