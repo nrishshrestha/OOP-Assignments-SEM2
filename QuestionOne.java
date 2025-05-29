@@ -9,5 +9,5 @@ public class QuestionOne{
             b=b+a.charAt(i);
         }
         System.out.println("Reverse="+b);
-    }
+    }
 }
