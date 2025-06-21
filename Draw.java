@@ -117,12 +117,12 @@ class ImplementDraw {
         cube.calculateArea();
         cube.calculatePerimeter();
 
-        System.out.println("\nCuboid:");
+        System.out.println("Cuboid:");
         cuboid.calculateVolume();
         cuboid.calculateArea();
         cuboid.calculatePerimeter();
 
-        System.out.println("\nCylinder:");
+        System.out.println("Cylinder:");
         cylinder.calculateVolume();
         cylinder.calculateArea();
         cylinder.calculatePerimeter();
